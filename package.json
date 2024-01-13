@@ -1,0 +1,31 @@
+{
+  "name": "@medyll/create-dev-env",
+  "version": "1.0.0",
+  "description": "create dev-env for @medyll projects : versionning, husky, commitizen ...",
+  "main": "index.js",
+  "bin": {
+    "@medyll/create-dev-env": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "commit": "node scripts/commit.js",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medyll/create-dev-env.git"
+  },
+  "author": "lebrun meddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medyll/create-dev-env/issues"
+  },
+  "homepage": "https://github.com/medyll/create-dev-env#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
+}
