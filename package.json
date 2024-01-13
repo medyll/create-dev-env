@@ -1,8 +1,9 @@
 {
   "name": "@medyll/create-dev-env",
   "version": "1.0.0",
-  "description": "create dev-env for @medyll projects : versionning, husky, commitizen ...",
+  "description": "create dev-env for @medyll projects : versioning, husky, commitizen ...",
   "main": "index.js",
+  "scope": "@medyll",
   "bin": {
     "@medyll/create-dev-env": "./bin/index.js"
   },
