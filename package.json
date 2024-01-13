@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/medyll/create-dev-env#readme",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "standard-version": "^9.5.0"
   },
   "dependencies": {
     "inquirer": "^9.2.12"
